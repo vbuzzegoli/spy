@@ -1,6 +1,6 @@
 {
-  "name": "redux-spy",
-  "version": "1.1.0",
+  "name": "redux-spy-logger",
+  "version": "1.1.1",
   "description": "Simple Logger as a Redux Middleware",
   "main": "index.js",
   "scripts": {

@@ -8,7 +8,7 @@ Lightweight, _MMMM_ compliant (check out : [Modern Modular Middleware Model](htt
 
 To install **Spy** in your project, navigate to your project folder in your terminal and run :
 
-    npm i --save redux-spy
+    npm i --save redux-spy-logger
 
 ## Setup
 
@@ -16,7 +16,7 @@ To start using **Spy**, you will first need to apply the middleware to your stor
 
 ```javascript
     ...
-    import spy from "redux-spy";
+    import spy from "redux-spy-logger";
     ...
     export default createStore(rootReducer,applyMiddleware([spy]));
 ```
@@ -85,7 +85,7 @@ Here is a overview of every options possible:
 
 ## Version
 
-1.1.0
+1.1.1
 
 ## License
 
